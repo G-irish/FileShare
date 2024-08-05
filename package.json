@@ -5,9 +5,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon Server.js",
-    "serve": "node Server.js"
+    "serve": "node Server.js",
+    "start":"concurrently \" "
   },
   "dependencies": {
+    "concurrently": "^8.2.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "dotenv-webpack": "^8.1.0",
